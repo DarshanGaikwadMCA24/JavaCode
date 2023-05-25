@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    width: 100%;
+    background: url(dj10.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar{
+    width:auto;
+    height: 100px;
+    margin: auto;
+}
+
+.icon{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color:  #ffff66;
+    font-size: 55px;
+    font-family: sans-serif;
+    padding-left: 100px;
+    float: left;
+    padding-top: 20px;
+    margin-top: 5px
+}
+
+.menu{
+    width: 600px;
+    float: left;
+    height: 70px;
+}
+
+.blink {
+            animation: blinker 1.5s linear infinite;
+            color: red;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    margin-left: 70px;
+    margin-top: 40px;
+    font-size: 25px;
+    }
+
+ul li a{
+    text-decoration: none;
+    color: #99ddff;
+    font-family: monospace;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+
+ul li a:hover{
+    color: #ffff00;
+}
+
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: whitesmoke;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: sans-serif;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1{
+    font-family: 'Trirong',serif;
+    font-size: 50px;
+    padding-left: 12px;
+    margin-top: 15%;
+    letter-spacing: 2px;
+}
+
+.content .cn{
+    width: 160px;
+    height: 40px;
+    background:  #99ddff;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content .cn a{
+    text-decoration: none;
+    color: black;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #cc33ff;
+}
+
+.content span{
+    color: #80e5ff;
+    font-size: 50px
+}
+
+
+::placeholder{
+    color: black;
+    font-family: Arial;
+}
+
